@@ -9,7 +9,7 @@ const fetchPeople = async () => {
 };
 
 const People = () => {
-  const { data, status } = useQuery("Planets", fetchPeople);
+  const { data, status } = useQuery("People", fetchPeople);
   console.log(data);
   return (
     <div>
